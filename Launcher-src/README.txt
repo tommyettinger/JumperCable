@@ -1,0 +1,1 @@
+This has already been built for x86 Windows 7, and is included in the Application directory.

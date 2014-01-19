@@ -1,0 +1,3 @@
+Place your executable jar, which must be named "App.jar", here.
+If you have any dependencies they probably need to go in the same folder as "Launcher.exe".
+The ideal solution is a single fat jar or uberjar placed here, named "App.jar".
