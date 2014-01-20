@@ -14,7 +14,7 @@ int _tmain(int argc, _TCHAR* argv[])
     ZeroMemory( &pi, sizeof(pi) );
 
 	return CreateProcess( NULL,   // No module name (use command line)
-        _tcsdup(TEXT("jre\\bin\\java.exe -server -XX:+TieredCompilation -jar files\\App.jar")),        // Command line
+        _tcsdup(TEXT("jre\\bin\\java.exe -server -XX:+TieredCompilation -Xms512m -Xmx1024m -jar files\\App.jar")),        // Command line
         NULL,           // Process handle not inheritable
         NULL,           // Thread handle not inheritable
         FALSE,          // Set handle inheritance to FALSE
